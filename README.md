@@ -372,6 +372,20 @@ Two restrictions do **not** come from the software licence and are worth knowing
 
 ## Citation
 
-If you use One for All in published work, please cite the repository
-(<https://github.com/Fblasio/OneForAll-RNAseq>) and the version you used. *(A full citation
-and DOI will be added on publication.)*
+If you use One for All in published work, please cite the version you used:
+
+> Blasio, F. (2026). *One for All: an interactive Shiny application for RNA-seq analysis*
+> (Version 1.0) [Computer software]. GitHub. https://github.com/Fblasio/OneForAll-RNAseq
+
+```bibtex
+@software{blasio_oneforall_2026,
+  author  = {Blasio, Francesco},
+  title   = {One for All: an interactive Shiny application for RNA-seq analysis},
+  version = {1.0},
+  year    = {2026},
+  url     = {https://github.com/Fblasio/OneForAll-RNAseq},
+  license = {GPL-3.0}
+}
+```
+
+*(A DOI and the reference of the accompanying article will be added on publication.)*
