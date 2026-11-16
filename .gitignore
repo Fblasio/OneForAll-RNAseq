@@ -1,0 +1,31 @@
+# --- Not published: too large, or provided separately -------------------
+# R 4.5.3: users install it themselves (see README) or get it via the installer
+R-4.5.3/
+# Private R package library: created on first launch by run_app.R
+heatmap_app/rlib/
+# Windows installer: published as a GitHub Release asset, not in the code.
+# The Inno Setup script that builds it is kept locally only.
+*.exe
+*.iss
+installer_output/
+
+# --- Local archive / old versions ----------------------------------------
+_archivo_no_publicar/
+version_tomate_25_06_26/
+
+# --- Development folders, also excluded from the installer --------------
+heatmap_app/results/
+heatmap_app/screenshots/
+.claude/
+
+# --- R / RStudio session files ------------------------------------------
+.Rhistory
+.RData
+.Rproj.user/
+Rplots.pdf
+
+# --- OS files ------------------------------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*

@@ -1,0 +1,68 @@
+THIRD-PARTY NOTICES
+
+This application includes or depends on third-party software packages.
+Each package remains under its own license. The list below is a summary
+for attribution and compliance purposes.
+
+R environment (bundled in the Windows installer):
+- R 4.5.3 — GPL-2 | GPL-3. Source code: https://cran.r-project.org/src/base/R-4/
+
+Core R / Shiny ecosystem:
+- shiny — GPL-3
+- shinyjs — MIT
+- shinycssloaders — MIT
+- colourpicker — MIT
+- cicerone — MIT
+- DT — GPL-3
+- ggplot2 — GPL-2+
+- ggrepel — GPL-3
+- dplyr — MIT
+- tibble — MIT
+- stringr — MIT
+- scales — MIT
+- later — MIT
+- jsonlite — MIT
+- digest — GPL-2+
+- httr — MIT
+- base64enc — GPL-2+
+- openxlsx — GPL-3
+- readxl — MIT
+- zip — MIT
+- cluster — GPL-2+
+- ashr — GPL-3+
+- sf — GPL-2+
+- sp — GPL-2+
+- ggVennDiagram — GPL-3+
+- ggvenn — MIT
+
+Bioconductor / genomics:
+- BiocManager — Artistic-2.0
+- DESeq2 — LGPL-3+
+- limma — GPL-2+
+- tximport — LGPL-2+
+- ComplexHeatmap — GPL-2+
+- InteractiveComplexHeatmap — MIT
+- circlize — MIT
+- AnnotationDbi — Artistic-2.0
+- clusterProfiler — Artistic-2.0
+- DOSE — Artistic-2.0
+- enrichplot — Artistic-2.0
+- pathview — GPL-3+
+- org.At.tair.db — Artistic-2.0
+- org.Slycopersicum.eg.db — Artistic-2.0 (third-party tomato annotation
+  package by Laura Rodriguez, UPM; not distributed via CRAN/Bioconductor)
+
+External data services (not software licences):
+- KEGG (https://www.kegg.jp) — free for academic use; commercial use
+  requires a licence from Kanehisa Laboratories
+  (https://www.kegg.jp/kegg/legal.html).
+- STRING (https://string-db.org) — queried live for protein networks;
+  STRING data are available under CC BY 4.0.
+
+Project files:
+- All original application code, scripts, and modules created for this project
+  are released under the GNU General Public License v3.0.
+
+Notes:
+- This list is intended as a practical summary.
+- The definitive license terms are those published by the original authors.
